@@ -6,23 +6,21 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.math.BigDecimal;
 
-import org.junit.Test;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-
+import org.junit.jupiter.api.Test;
 
 import br.com.grao.apisavingsgrao.controller.dto.SavingIncomeDTO;
 import br.com.grao.apisavingsgrao.controller.dto.SavingsDTO;
 
-public class ServiceSavingsImplTestTest {
+public class ServiceSavingsImplTest {
 
 	private ServiceSavings savingsService;
 	
 	@BeforeEach
 	public void setUp() {
 		this.savingsService = new ServiceSavingsImpl();
-			
-	
 	}
 	
 	@Test
@@ -62,4 +60,3 @@ public class ServiceSavingsImplTestTest {
 	}
 	
 }
-

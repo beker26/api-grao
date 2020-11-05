@@ -22,29 +22,18 @@ public class SavingsDTO {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public BigDecimal getMoney() {
 		return money;
 	}
 
-	public void setMoney(BigDecimal money) {
-		this.money = money;
-	}
-	
 
 	public Integer getWeeks() {
 		return weeks;
 	}
 
 
-	public void setWeeks(Integer weeks) {
-		this.weeks = weeks;
-	}
-
-
+	
 	
 
 }

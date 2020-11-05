@@ -7,5 +7,5 @@ import br.com.grao.apisavingsgrao.controller.dto.SavingsDTO;
 public interface ServiceSavings {
 
 	  
-	public SavingIncomeDTO savesXIncome(SavingsDTO savings);
+	SavingIncomeDTO savesXIncome(SavingsDTO savings);
 }
